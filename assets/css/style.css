@@ -14,16 +14,58 @@
 }
 
 .stuff {
-   border: solid;
-   background-color: green;
+   background-color: rgb(228, 228, 228);
    height: 327px;
    margin: 0 0 0 0;
+   padding: 10px;
 }
 
 .stuff-text {
-    border: solid;
-    background-color: green;
+    background-color: rgb(228, 228, 228);
     height: 327px;
     width: 300px;
     margin: 0 0 0 0;
+    padding: 10px;
+    text-align: center;
+    color: black;
  }
+
+ .bio-text {
+    font-size: x-large;
+ }
+
+ #name {
+     font-size: 3em;
+     text-align: center;
+ }
+
+ #header {
+     margin-top: 10px;
+ }
+
+ #test {
+    text-align: center;
+}
+
+.subtext {
+    margin: 10px;
+    text-align: center;
+}
+
+i {
+    size: large;
+    color: rgb(70, 70, 70);
+}
+
+#bottom {
+    margin-bottom: 60px;
+}
+
+#label {
+    font-size: 1.5em;
+    color: rgb(70, 70, 70);
+}
+
+#profile-pic {
+    width: 50%
+}

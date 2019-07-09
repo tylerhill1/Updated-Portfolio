@@ -8,96 +8,192 @@
         <link rel="stylesheet" href="assets/css/style.css">
       </head>
 <body>
-    <h1 class="ui header">
+    <!-- <h1 class="ui header">
         <img src="assets/images/pic.jpg" class="ui circular image">
         Tyler Hill
-    </h1>
+    </h1> -->
+
+    <div class="ui stackable grid container">
+            <div class="row" id="header">
+                <div class="six wide column" id="profile-pic">
+                   <img src="assets/images/pic.jpg" class="ui circular image">
+                </div>
+                <div class="six wide column">
+                    <div class="subtext">
+                    <p id="name"><strong>Tyler Hill</strong></p>
+                    <h3><strong>Email:</strong></h3>
+                            <p>t.wakefield.hill@gmail.com</p>
+                            <h3><strong>Phone:</strong></h3>
+                            <p>385-445-3396</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="ui section divider"></div>
+
+    <div class="ui stackable grid container">
+            <div class="row">
+                <div class="sixteen wide column">
+                    <h1>About Me</h1>
+                    <div class="bio-text">
+                            <p>As a rapidly improving full-stack web developer, I am gaining a breadth of knowledge that will assist with any major project. I am eager to get my hands dirty in code to make this beautiful world run more smoothly.</p>
+                            <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
 
     <div class="ui stackable grid container">
         <div class="row">
-        <div class="two wide column"></div>
-          <div class="five wide column">
-            <div class="ui fade reveal">
+            <div class="twelve wide column">
+                <h1>Projects</h1>
+            </div>
+        </div>
+    </div>
+    <div class="ui stackable grid container">
+        <div class="row">
+          <div class="eight wide column">
+            <div class="ui move up reveal">
                 <div class="visible content">
-                    <a href="https://tylerhill1.github.io/Train-Scheduler/" class="ui medium image">
-                        <div class="stuff">
+                        <div class="stuff ui medium image">
                                 <img src="assets/images/train-scheduler.png">
                             </div>
-                    </a>
                 </div>
                 <div class="hidden content">
-                    <a href="https://tylerhill1.github.io/Train-Scheduler/" class="ui medium image">
+                    <!-- <a href="https://tylerhill1.github.io/Train-Scheduler/" class="ui medium image"> -->
                         <div class="stuff-text">
-                            <p>test test test</p>
+                            <h1>Train Scheduler</h1>
+                            <p>Uses the firebase database to allow admins to input train departure times and have them be seen from any other client.</p>
+                            <a href="https://tylerhill1.github.io/Train-Scheduler/"><button class="ui button">
+                                    Deployed Page
+                            </button>
+                            </a>
+                            <a href="https://github.com/tylerhill1/Train-Scheduler"><button class="ui button">
+                                    Github Repo
+                            </button>
+                            </a>
                         </div>
-                    </a>
+                    <!-- </a> -->
                 </div>
               </div>
           </div>
-          <div class="two wide column"></div>
-          <div class="five wide column">
-                <div class="ui fade reveal">
+          <div class="eight wide column">
+                <div class="ui move up reveal">
                         <div class="visible content">
-                                <a href="https://tylerhill1.github.io/TriviaGame/" class="ui medium image">
-                                    <div class="stuff">
+                                    <div class="stuff ui medium image">
                                         <img src="assets/images/tennis-trivia.png">
                                     </div>
-                                </a>
                         </div>
                         <div class="hidden content">
-                            <a href="https://tylerhill1.github.io/TriviaGame" class="ui medium image">
-                                <div class="stuff-text">
-                                    <p>test test test</p>
+                                <div class="stuff-text" id="trivia">
+                                    <h1>Trivia Game</h1>
+                                    <p>Employs several functions and timeout calls to make for a seamless quiz experience for the end user. The game also employs a heavy use of JQuery calls to consistently empty and rewrite HTML elements.</p>
+                                    <a href="https://tylerhill1.github.io/TriviaGame/"><button class="ui button">
+                                            Deployed Page
+                                    </button>
+                                    </a>
+                                    <a href="https://github.com/tylerhill1/TriviaGame"><button class="ui button">
+                                            Github Repo
+                                    </button>
+                                    </a>
                                 </div>
-                            </a>
                         </div>
                       </div>
           </div>
-          <div class="two wide column"></div>
         </div>
         <div class="row">
-            <div class="two wide column"></div>
-          <div class="five wide column">
-                <div class="ui fade reveal">
+          <div class="eight wide column">
+                <div class="ui move up reveal">
                         <div class="visible content">
-                                <a href="https://tylerhill1.github.io/Word-Guess-Game/" class="ui medium image">
-                                    <div class="stuff">
+                                    <div class="stuff ui medium image">
                                             <img src="assets/images/hangman.png">
                                         </div>
-                                </a>
                         </div>
                         <div class="hidden content">
-                            <a href="https://tylerhill1.github.io/Word-Guess-Game" class="ui medium image">
                                 <div class="stuff-text">
-                                    <p>Test Test Test
+                                    <h1>Word Guess Game</h1>
+                                    <p>This is a basic hangman-inspired game that incorporated several basic JavaScript skills. Most notable are the use of arrays and functions to interact with user inputs.
                                     </p>
+                                    <a href="https://tylerhill1.github.io/Word-Guess-Game/"><button class="ui button">
+                                            Deployed Page
+                                    </button>
+                                    </a>
+                                    <a href="https://github.com/tylerhill1/Word-Guess-Game"><button class="ui button">
+                                            Github Repo
+                                    </button>
+                                    </a>
                                 </div>
-                            </a>
                         </div>
                     </div>
           </div>
-          <div class="two wide column"></div>
-          <div class="five wide column">
-                <div class="ui fade reveal">
+          <div class="eight wide column">
+                <div class="ui move up reveal">
                         <div class="visible content">
-                                <a href="https://tylerhill1.github.io/Group-Project-1/" class="ui medium image">
-                                    <div class="stuff">
+                                    <div class="stuff ui medium image">
                                             <img src="assets/images/project.png">
                                         </div>
-                                </a>
                         </div>
                         <div class="hidden content">
-                            <a href="https://tylerhill1.github.io/Group-Project-1" class="ui medium image">
                                 <div class="stuff-text">
-                                    <p>test test test</p>
+                                    <h1>Class Hub</h1>
+                                    <p>Incorporates front-end and back-end logic, including integrating APIs and firebase storage, in a class hub where students can vote on their favorite projects and chat with each other.</p>
+                                    <a href="https://tylerhill1.github.io/Group-Project-1/"><button class="ui button">
+                                            Deployed Page
+                                    </button>
+                                    </a>
+                                    <a href="https://github.com/tylerhill1/Group-Project-1"><button class="ui button">
+                                            Github Repo
+                                    </button>
+                                    </a>
                                 </div>
-                            </a>
                         </div>
                     </div>
           </div>
-          <div class="two wide column"></div>
         </div>
       </div>
+
+
+      <div class="ui stackable grid container">
+            <div class="row">
+                <div class="twelve wide column">
+                    <br>
+                    <h1>Let's Connect</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="ui stackable grid container" id="bottom">
+                <div class="row">
+                    <div class="five wide column" id="test">
+                        <a href="assets/images/tyler-hill-resume.pdf">
+                            <i class="file alternate outline huge icon"></i>
+                            <p id="label">Resume</p>
+                        </a>
+                    </div>
+                  <div class="five wide column" id="test">
+                    <a href="https://github.com/tylerhill1">
+                        <i class="github huge icon"></i>
+                        <p id="label">Github</p>
+                    </a>
+                  </div>
+                  <div class="five wide column" id="test">
+                        <a href="https://www.linkedin.com/in/tyler-hill-9454a5143/">
+                        <i class="linkedin huge icon"></i>
+                        <p id="label">LinkedIn</p>
+                        </a>
+                      </div>
+                </div>
+              </div>
+
+        
 
 <!-- Add all HTML Code here -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
