@@ -17,6 +17,10 @@
     opacity: 0.5;
   }
 
+body { 
+    opacity: 1;
+    transition: opacity .8s;
+ }
 
 .center {
     width: 420px;

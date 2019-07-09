@@ -14,13 +14,24 @@
             <div class="center">
                     <h1 id="front">Tyler Hill</h1>
                     <p id="next">Full-Stack Web Developer</p>
-                    <a href="portfolio.html"><button class="ui button">
+                    <span onclick="transitionToPage('portfolio.html')"><button class="ui button">
                             View My Work
-                    </button>
-                    </a>
+                    </button></span>
             </div>
 <!-- Add all HTML Code here -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.13/semantic.min.js"></script>
+<script>
+    window.transitionToPage = function(href) {
+    document.querySelector('body').style.opacity = 0
+    setTimeout(function() { 
+        window.location.href = href
+    }, 500)
+}
+
+document.addEventListener('DOMContentLoaded', function(event) {
+    document.querySelector('body').style.opacity = 1
+})
+</script>
 </body>
 </html>
