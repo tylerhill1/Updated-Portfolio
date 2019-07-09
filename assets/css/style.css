@@ -1,9 +1,28 @@
+#bg {
+    position: fixed; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+  }
+  #bg img {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+    margin: auto; 
+    min-width: 50%;
+    min-height: 50%;
+    opacity: 0.5;
+  }
+
 
 .center {
-	width: 300px;
-    height: 200px;
+    width: 420px;
+    height: 300px;
     text-align: center;
-	
+    color: rgb(0, 11, 77);
 	position: absolute;
 	top:0;
 	bottom: 0;
@@ -68,4 +87,12 @@ i {
 
 #profile-pic {
     width: 50%
+}
+
+#front {
+    font-size: 5em;
+}
+
+#next {
+    font-size: 2.5em;
 }
